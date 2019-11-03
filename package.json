@@ -1,0 +1,24 @@
+{
+  "name": "altr-test",
+  "version": "1.0.0",
+  "description": "challenge",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha 'test.js' --timeout 65000"
+  },
+  "author": "Sidorov Vadim",
+  "license": "ISC",
+  "dependencies": {
+    "expect": "^24.9.0",
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "nodemon": "^1.19.4",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "supertest": "^4.0.2"
+  }
+  
+}
